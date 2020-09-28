@@ -1,0 +1,27 @@
+@font-face{
+  font-family: roboto;
+  src: url('Roboto-Font.ttf');
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+canvas {
+  display: block;
+  float: left;
+}
+.right-menu{
+  float: right;
+  margin-right: 10%;
+  margin-top: 20%;
+}
+.right-menu p{
+  color: #fff;
+  font-size: 20px;
+  font-family: roboto;
+}
